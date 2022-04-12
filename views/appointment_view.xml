@@ -6,7 +6,8 @@
         <field name="model">hospital.appointment</field>
         <field name="arch" type="xml">
 <!--            create="0" delete="0"-->
-            <tree
+<!--            adding sample data-->
+            <tree sample="1"
                   decoration-info="state == 'draft'"
                   decoration-success="state == 'done'"
                   decoration-danger="state =='cancel'"
