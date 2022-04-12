@@ -15,7 +15,10 @@
                 <field name="gender" optional="show"/>
                 <field name="appointment_time"/>
                 <field name="booking_date"/>
-                <field name="doctor_id" widget="many2one_avatar"/>
+<!--                many2one_avatar_user: With a chatter-->
+                <field name="doctor_id" widget="many2one_avatar_user"/>
+<!--                many2one_avatar: No chatter-->
+<!--                <field name="doctor_id" widget="many2one_avatar"/>-->
                 <field name="activity_ids" widget="list_activity"/>
                 <field name="state" widget="badge"
                 decoration-info="state == 'draft'"
