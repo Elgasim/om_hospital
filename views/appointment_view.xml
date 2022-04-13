@@ -38,16 +38,20 @@
 <!--            create="0" delete="0" edit="0"-->
             <form string="Appointment">
                 <header>
-                    <field name="state" widget="statusbar" nolabel="1" options="{'clickable':'1'}"
+<!--                    Cilckable status bar-->
+<!--                    <field name="state" widget="statusbar" nolabel="1" options="{'clickable':'1'}"-->
+<!--                    statusbar_visible="draft,in_consultation,done"/>-->
+
+                    <field name="state" widget="statusbar" nolabel="1"
                     statusbar_visible="draft,in_consultation,done"/>
-                    <button name="action_test" string="Test Object"
-                            help="on clicking this button a python code will be excuted"
-                            confirm="Are sure to excute python code"
-                            class="oe_highlight" type="object"/>
-                    <button name="%(om_hospital.action_hospital_patient)d" string="Test Action"
-                            help="on clicking this button you will be directed to patient records"
-                            confirm="Are you sure want to open Patient Record?"
-                            class="oe_highlight" type="action"/>
+<!--                    <button name="action_test" string="Test Object"-->
+<!--                            help="on clicking this button a python code will be excuted"-->
+<!--                            confirm="Are sure to excute python code"-->
+<!--                            class="oe_highlight" type="object"/>-->
+<!--                    <button name="%(om_hospital.action_hospital_patient)d" string="Test Action"-->
+<!--                            help="on clicking this button you will be directed to patient records"-->
+<!--                            confirm="Are you sure want to open Patient Record?"-->
+<!--                            class="oe_highlight" type="action"/>-->
                 </header>
                 <sheet>
                     <div class="oe_title">

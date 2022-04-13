@@ -25,14 +25,14 @@ class HospitalAppointment(models.Model):
     def onchange_patient_id(self):
         self.ref = self.patient_id.ref
 
-    def action_test(self):
-        print('GOOOOOOOOOO')
-        return {
-            'effect': {
-                'fadeout': 'slow',
-                'message': 'successfully clicking',
-                'type': 'rainbow_man',
-            }
-        }
+    # def action_test(self):
+    #     print('GOOOOOOOOOO')
+    #     return {
+    #         'effect': {
+    #             'fadeout': 'slow',
+    #             'message': 'successfully clicking',
+    #             'type': 'rainbow_man',
+    #         }
+    #     }
 
 
