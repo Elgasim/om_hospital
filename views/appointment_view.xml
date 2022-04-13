@@ -44,6 +44,18 @@
 
                     <field name="state" widget="statusbar" nolabel="1"
                     statusbar_visible="draft,in_consultation,done"/>
+
+<!--                    Status Bar Buttons-->
+                    <button name="action_in_consultation" string="In consultation"
+                            class="oe_highlight" type="object" states="draft"/>
+                    <button name="action_done" string="Mark as Done"
+                            class="oe_highlight" type="object" states="in_consultation"/>
+                    <button name="action_cancel" string="Cancel"
+                            type="object" states="draft,in_consultation,done"/>
+                    <button name="action_reset_to_draft" string="Reset To Draft"
+                            class="oe_highlight" type="object" states="done,cancel"/>
+
+
 <!--                    <button name="action_test" string="Test Object"-->
 <!--                            help="on clicking this button a python code will be excuted"-->
 <!--                            confirm="Are sure to excute python code"-->
