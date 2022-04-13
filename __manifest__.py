@@ -10,7 +10,7 @@
     'website': 'https://www.elgasim.com/',
     'summary': 'Hospital management System',
     'description': """Hospital management System""",
-    'depends': ['base','mail'],
+    'depends': ['base','mail','product'],
     'data': [
         'security/ir.model.access.csv',
         'views/menu.xml',
