@@ -35,12 +35,12 @@
         <field name="name">view.hospital.appointment.form</field>
         <field name="model">hospital.appointment</field>
         <field name="arch" type="xml">
-<!--            create="0" delete="0" edit="0"-->
+           <!--create="0" delete="0" edit="0"-->
             <form string="Appointment">
                 <header>
-<!--                    Cilckable status bar-->
-<!--                    <field name="state" widget="statusbar" nolabel="1" options="{'clickable':'1'}"-->
-<!--                    statusbar_visible="draft,in_consultation,done"/>-->
+            <!--Cilckable status bar-->
+            <!--<field name="state" widget="statusbar" nolabel="1" options="{'clickable':'1'}"-->
+            <!--statusbar_visible="draft,in_consultation,done"/>-->
 
                     <field name="state" widget="statusbar" nolabel="1"
                     statusbar_visible="draft,in_consultation,done"/>
@@ -48,7 +48,9 @@
 <!--                    Status Bar Buttons-->
                     <button name="action_in_consultation" string="In consultation"
                             class="oe_highlight" type="object" states="draft"/>
+<!--                    data-hotkey-->
                     <button name="action_done" string="Mark as Done"
+                            data-hotkey="p"
                             class="oe_highlight" type="object" states="in_consultation"/>
                     <button name="action_cancel" string="Cancel"
                             type="object" states="draft,in_consultation,done"/>
