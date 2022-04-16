@@ -40,6 +40,7 @@
                             <field name="active" invisible="1"/>
                             <field name="document" filename="file_name"/>
                             <field name="file_name" invisible="1"/>
+                            <field  name="tag_ids" widget="many2many_tags"/>
                         </group>
                     </group>
                 </sheet>
