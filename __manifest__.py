@@ -22,6 +22,7 @@
         'views/male_patient_context_view.xml',
         'views/kid_patient_context_view.xml',
         'views/appointment_view.xml',
+        'views/patient_tag_view.xml',
     ],
     'demo': [],
     'application': True,
