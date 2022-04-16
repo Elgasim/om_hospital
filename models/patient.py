@@ -14,6 +14,7 @@ class HospitalPatient(models.Model):
     document = fields.Binary(string="Document")
     patient_image = fields.Image(string="Patient Image")
     file_name =fields.Char(string="Document Name")
+    image = fields.Image(string="Image")
 
     @api.depends("date_of_birth")
     def _compute_age(self):
