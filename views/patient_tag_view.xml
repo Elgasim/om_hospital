@@ -32,7 +32,8 @@
                         <group>
 <!--                            Boolean Toggle-->
                            <field name="active" widget="boolean_toggle"/>
-<!--                            <field name="color" widget="color_picker"/>-->
+<!--                            Color Picker-->
+                            <field name="color" widget="color_picker"/>
                         </group>
                     </group>
                 </sheet>
