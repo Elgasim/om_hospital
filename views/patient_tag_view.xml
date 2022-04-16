@@ -10,6 +10,7 @@
                 <field name="name"/>
 <!--                Boolean Toggle-->
                 <field name="active" widget="boolean_toggle"/>
+                <field name="color" widget="color_picker"/>
             </tree>
         </field>
     </record>
@@ -34,6 +35,7 @@
                            <field name="active" widget="boolean_toggle"/>
 <!--                            Color Picker-->
                             <field name="color" widget="color_picker"/>
+                            <field name="color_2" widget="color"/>
                         </group>
                     </group>
                 </sheet>
