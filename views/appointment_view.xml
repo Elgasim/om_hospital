@@ -115,7 +115,7 @@
 <!--                            collabroative -->
 <!--                            <field name="prescription" placeholder="Enter your prescription" options="{'collaborative':true}"/>-->
 <!--                            Resizable-->
-                            <field name="prescription" placeholder="Enter your prescription" options="{'collaborative':true,'resizable':true}"/>
+                            <field name="prescription" placeholder="Enter your prescription" options="{'collaborative':true,'resizable':true,'codeview':true}"/>
                         </page>
                         <page string="Pharmacy" name="pharmacy">
                                 <field name="pharmacy_line_ids">
