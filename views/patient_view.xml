@@ -23,6 +23,7 @@
                 <sheet>
                     <field name="image" widget="image" class="oe_avatar"/>
                     <div class="oe_button_box" name="button_box">
+<!--                        widget archived when archived a record-->
                         <widget name="web_ribbon" title="Archived" bg_color="bg-danger"
                                 attrs="{'invisible': [('active', '=', True)]}"/>
                     </div>
